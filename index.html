@@ -5,27 +5,70 @@
   <meta charset="utf-8">
   <title>TinDog</title>
   <link rel="stylesheet" href="css/styles.css">
+  <!-- Bootstrap V4.0 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
+  <!-- Font awsome -->
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
 </head>
 
 <body>
 
-  <section id="title">
+  <section id="title" class="section1">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light ">
 
-    <!-- Nav Bar -->
+
+        <div class="container my-5">
+
+          <a class="navbar-brand text-light " href="#">TinDog</a>
+          <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav  ml-auto ">
+              <a class="nav-link active  text-light" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link  text-light" href="#">Features</a>
+              <a class="nav-link  text-light " href="#">Pricing</a>
+
+
+            </div>
+          </div>
+
+        </div>
+
+
+      </nav>
 
 
 
+      <!-- Title -->
 
-    <!-- Title -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <h1 class="title text-light ">Meet new and interesting dogs nearby.</h1>
+            <button type="button" class="btn btn-lg btn-dark  "><i class="fab fa-apple"></i> Download</button>
+            <button type="button" class=" btn btn-lg  btn-outline-light  "><i class="fab fa-google-play"></i>
+              Download</button>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <img src="images/iphone6.png" alt="iphone-mockup" class="section1-img col-lg-6 col-md-6 col-sm-6 ">
+          </div>
+        </div>
 
-    <div>
-      <h1>Meet new and interesting dogs nearby.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+
+      </div>
+
     </div>
-    <div>
-      <img src="images/iphone6.png" alt="iphone-mockup">
-    </div>
+
 
   </section>
 
@@ -33,15 +76,30 @@
   <!-- Features -->
 
   <section id="features">
+    <div class="container">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+      <div class="row">
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+        <div class="feature-box  col-lg-4 ">
+          <i class="fad fa-heart section2-icon"></i>
+          <h3 class="section2-title">Easy to use.</h3>
+          <p class="section2-p">So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="feature-box col-lg-4 ">
+          <i class="fad fa-bone section2-icon"></i>
+          <h3 class="section2-title">Elite Clientele</h3>
+          <p class="section2-p">We have all the dogs, the greatest dogs.</p>
+        </div>
+        <div class="feature-box col-lg-4 ">
+          <i class="fad fa-bullseye section2-icon"></i>
+          <h3 class="section2-title">Guaranteed to work.</h3>
+          <p class="section2-p">Find the love of your dog's life or your money back.</p>
+        </div>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+      </div>
+
+    </div>
+
 
   </section>
 
@@ -122,11 +180,19 @@
 
   <footer id="footer">
 
-    <p>© Copyright TinDog</p>
+    <p>2022© Copyright TinDog</p>
 
   </footer>
 
-
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+    integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

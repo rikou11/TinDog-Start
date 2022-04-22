@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&family=Nunito&family=Ubuntu:wght@500&display=swap");
+body {
+  font-family: "Montserrat Light", sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  height: fit-content;
+}
+
+#features {
+  padding: 7% 15%;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  font-family: "Ubuntu Medium 500", sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.title {
+  font-family: "Montserrat Black", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section1-img {
+  transform: rotate(20deg);
+}
+.section2-title {
+  font-family: "Montserrat Black", sans-serif;
+  font-size: 1.5rem;
+}
+.section2-p {
+  color: #8f8f8f;
+}
+.section2-icon {
+  font-size: 5rem;
+
+  color: #ff4c68;
+}
+
+.section2-icon:hover {
+  color: #a03646;
+}
+.feature-box {
+  text-align: center;
+}
